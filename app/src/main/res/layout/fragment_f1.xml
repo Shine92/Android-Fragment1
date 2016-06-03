@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/f1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="f1"
+        android:onClick="testf1"
+        />
+    <TextView
+        android:id="@+id/f1_tv"
+        android:background="#f00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="I am f1"
+        />
+
+
+</LinearLayout>
